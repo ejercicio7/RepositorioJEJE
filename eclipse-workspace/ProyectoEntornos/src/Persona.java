@@ -34,5 +34,10 @@ public class Persona {
 	public void setEdad(String edad) {
 		this.edad = edad;
 	}
+
+	@Override
+	public String toString() {
+		return "Persona [El cliente" + nombre + ", con Dni" + dni + ", tiene la edad de" + edad + "]";
+	}
 	
 }
